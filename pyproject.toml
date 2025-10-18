@@ -1,0 +1,18 @@
+[project]
+name = "messenger-fastapi"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "AlexandrLutay",email = "alex896201090091@hmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi (>=0.119.0,<0.120.0)",
+    "uvicorn (>=0.38.0,<0.39.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
